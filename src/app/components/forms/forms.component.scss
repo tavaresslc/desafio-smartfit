@@ -1,0 +1,123 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+
+    border: 4px solid #eee;
+    border-radius: 8px;
+}
+
+.form-group .form-icon {
+    font-size: 14px;
+    color: var(--light-text);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.form-group .form-icon img {
+    width: 28px;
+    height: 28px;
+}
+
+.form-group h3 {
+    width: 100%;
+    padding: 10px;
+
+    font-size: 22px;
+    color: var(--light-text);
+    margin-bottom: 12px;
+    font-weight: 300;
+
+    border-bottom: 2px solid #eee;
+}
+
+.form-group .radio-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 10px 4px;
+
+    border-bottom: 2px solid #eee;
+    position: relative;
+    color: var(--light-text);
+
+    font-size: 16px;
+}
+
+
+
+.form-group .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.form-group .btn-wrapper button {
+    width: 35%;
+    padding: 16px 0;
+    border: none;
+    border-radius: 4px;
+
+    font-size: 16px;
+    font-weight: 900;
+
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form-group .btn-wrapper .btn-primary {
+    background-color: var(--yellow);
+}
+
+.form-group .btn-wrapper .btn-secondary {
+    background-color: transparent;
+    border: 2px solid #ccc;
+}
+
+.form-group .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+
+    font-size: 16px;
+    color: var(--dark-grey);
+    font-weight: 500;
+
+    margin-top: 48px;
+    padding: 4px;
+    position: relative;
+}
+
+.form-group .radio-wrapper input,
+.form-group .checkbox-wrapper input {
+    margin-right: 12px;
+    transform: scale(1.3);
+}
+
+.form-group .checkbox-wrapper span, 
+.form-group .radio-wrapper span {
+    position: absolute;
+    right: 0;
+}
+
+.form-group .checkbox-wrapper b {
+    font-size: 20px;
+}
