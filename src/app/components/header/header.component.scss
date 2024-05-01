@@ -5,12 +5,12 @@ header {
     justify-content: center;
     width: 100%;
 
-    gap: 32px;
+    gap: 80px;
 }
 
 header .logo-container {
     background: black;
-    padding: 24px;
+    padding: 32px;
     width: 100%;
 
     display: flex;
@@ -33,7 +33,7 @@ header .text-container {
 }
 
 header .text-container h1 {
-    font-size: 34px;
+    font-size: 40px;
     color: var(--dark-grey);
 }
 
@@ -48,7 +48,7 @@ header .text-container .heading {
     justify-content: flex-start;
     flex-direction: column;
 
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     gap: 16px;
 }
 
